@@ -1,10 +1,9 @@
 body {
   background-color: rgb(174, 201, 225);
+  font-family: "Inter", sans-serif;
 }
 
-#root,
-#heade,
-#two {
+#root {
   margin-left: 50px;
   margin-top: 20px;
 }
@@ -12,12 +11,11 @@ body {
 ul {
   font-size: x-large;
   font-weight: 600;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 h1 {
   font-size: 60px;
-  font-family: monospace;
+
   margin-top: 15px;
 }
 
@@ -61,4 +59,14 @@ footer {
 
 .boot > li {
   padding: 10px0;
+}
+
+.barnav {
+  font-size: 50px;
+  color: rgb(59, 19, 19);
+}
+
+.mainn {
+  font-size: 40px;
+  color: rgb(27, 14, 41);
 }
