@@ -13,8 +13,17 @@ ul {
   font-weight: 600;
 }
 
+li {
+  padding-block: 10px;
+}
+
+li::marker {
+  font-size: 1.3em;
+  color: rgb(79, 79, 137);
+}
+
 h1 {
-  font-size: 60px;
+  font-size: 40px;
 
   margin-top: 15px;
 }
@@ -36,7 +45,8 @@ img {
 nav {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  /*margin-top: 40px;*/
+  padding-block: 40px;
   align-items: center;
   border-bottom: 4px solid rgba(187, 188, 189, 0.4);
 }
@@ -62,11 +72,30 @@ footer {
 }
 
 .barnav {
-  font-size: 50px;
+  font-size: 30px;
   color: rgb(59, 19, 19);
+  /*margin-top: 20px;*/
+
+  display: flex;
+  align-items: center;
+
+  background-color: rgb(94, 94, 122);
+}
+
+.scrimba {
+  padding-block: 40px;
+}
+
+.barnav > img {
+  margin-right: 10px;
 }
 
 .mainn {
   font-size: 40px;
   color: rgb(27, 14, 41);
+  padding-top: 20px;
+}
+
+.barnav > h3 {
+  margin-right: auto;
 }
